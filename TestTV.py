@@ -14,5 +14,5 @@ tv2.setChannel(3)
 tv2.setVolume(2)
 
 # Print the results
-print(tv1.getStatus(),"tvl's channel is", tv1.get_channel(), "and volume level is", tv1.get_volume())
-print(tv2.getStatus(),"tv2's channel is", tv2.get_channel(), "and volume level is", tv2.get_volume())
+print(tv1.getStatus(),"tvl's channel is", tv1.getChannel(), "and volume level is", tv1.getVolume())
+print(tv2.getStatus(),"tv2's channel is", tv2.getChannel(), "and volume level is", tv2.getVolume())
