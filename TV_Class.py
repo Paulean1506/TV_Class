@@ -46,6 +46,12 @@ class TV:
             if self.volume < 1:
                 self.volume = 1
 
+    def status(self):
+        if self.on:
+            return "TV is on"
+        else:
+            return "TV is off"
+
     def getChannel(self):
         return self.channel
 
