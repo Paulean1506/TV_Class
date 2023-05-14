@@ -97,19 +97,19 @@ class App(npyscreen.NPSApp):
             relx       = 2,
             rely       = 2,
             max_width  = 95,
-            max_height = 26
+            max_height = 27
         )
         widget_tv2 = form.add(
             Column,
             name       = "TV 2",
             relx       = 100,
             rely       = 2,
-            max_height = 26
+            max_height = 27
         )
         widget_settings = form.add(
             npyscreen.BoxTitle,
             name       = "Information",
-            max_height = 16
+            max_height = 15
         )
         widget_settings.resize
         widget_tv1.values  = [tv1.getStatus(), "tvl's channel is:", tv1.getChannel(), "and volume level is:", tv1.getVolume()]
