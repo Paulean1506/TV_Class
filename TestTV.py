@@ -114,7 +114,7 @@ class App(npyscreen.NPSApp):
         widget_settings.resize
         widget_tv1.values  = [tv1.getStatus(), "tvl's channel is:", tv1.getChannel(), "and volume level is:", tv1.getVolume()]
         widget_tv2.values  = [tv2.getStatus(), "tv2's channel is:", tv2.getChannel(), "and volume level is:", tv2.getVolume()]
-        widget_settings.values = ['In this program:', '\nThe current channel (1 to 120) of this TV.', '\nThe current volume level (1 to 7) of this TV.', '\nIndicates whether this TV is on/off.', '\nConstructs a default TV object.', '\nTurns on this TV.', '\nTurns off this TV.', '\nSets a new channel for this TV.', '\nSets a new volume level for this TV.', '\nIncreases the channel number by 1.', '\nDecreases the channel number by 1.', '\nIncreases the volume level by 1.', '\nDecreases the volume level by 1.']
+        widget_settings.values = ['In this program:', '\nThe current channel of this TV is (1 to 120).', '\nThe current volume level of this TV is (1 to 7).', '\nIndicates whether this TV is on/off.', '\nConstructs a default TV object.', '\nTurns on this TV.', '\nTurns off this TV.', '\nSets a new channel for this TV.', '\nSets a new volume level for this TV.', '\nIncreases the channel number by 1.', '\nDecreases the channel number by 1.', '\nIncreases the volume level by 1.', '\nDecreases the volume level by 1.']
         widget_tv1.max_height = 5
         form.edit()
 
