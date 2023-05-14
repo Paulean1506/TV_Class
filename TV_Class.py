@@ -49,9 +49,9 @@ class TV:
 
     def getStatus(self):
         if self.on:
-            return "TV is on"
+            return "TV is ON"
         else:
-            return "TV is off"
+            return "TV is OFF"
 
     def getChannel(self):
         return self.channel
